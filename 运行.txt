@@ -1,0 +1,12 @@
+由于这两天还在编写，所以还没有部署上线。
+首先先给两个文件  npm install
+
+创建数据库
+
+进入 koa2-blog 修改对应参数，Mysql 密码、数据库名
+
+npm run dev / npm run prd  启动
+
+端口是 8090
+
+需打开 radis

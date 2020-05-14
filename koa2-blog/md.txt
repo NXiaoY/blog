@@ -1,0 +1,15 @@
+要自启动还是要安装 npm i cross-env --save-dev
+"scripts": {
+    "start": "node bin/www",
+    "dev": "cross-env NODE_ENV=dev ./node_modules/.bin/nodemon bin/www",
+    "prd": "cross-env NODE_ENV=production pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+需要安装 插件
+ npm i koa-generic-session koa-redis redis --save
+ npm i mysql xss --save
+ 
+日志
+npm i koa-morgan --save
